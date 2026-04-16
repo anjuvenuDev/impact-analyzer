@@ -1,0 +1,43 @@
+{
+  "name": "impact-analyzer",
+  "version": "3.0.0",
+  "description": "Diff-aware and simulation-first CLI for dependency impact analysis",
+  "main": "src/cli/index.js",
+  "type": "commonjs",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "impact-analyzer": "src/cli/index.js"
+  },
+  "scripts": {
+    "analyze": "node src/cli/index.js analyze",
+    "check": "node src/cli/index.js check",
+    "graph": "node src/cli/index.js graph",
+    "focus": "node src/cli/index.js focus",
+    "metrics": "node src/cli/index.js metrics",
+    "smoke": "node src/cli/index.js --help > /dev/null",
+    "pack:dry-run": "npm pack --dry-run"
+  },
+  "keywords": [
+    "impact-analysis",
+    "change-impact",
+    "dependency-graph",
+    "git",
+    "cli",
+    "devtools",
+    "engineering-productivity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.28.0",
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+output/*.json
+!output/impact.json
+.impact-cache.json
+.impact-forecasts.jsonl
+.impact-validation.jsonl
+npm-debug.log*
