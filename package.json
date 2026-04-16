@@ -1,5 +1,5 @@
 {
-  "name": "@anjana/impact-analyzer",
+  "name": "@anjuvenu2005/impact-analyzer",
   "version": "3.0.0",
   "description": "Diff-aware and simulation-first CLI for dependency impact analysis",
   "main": "src/cli/index.js",
